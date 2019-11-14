@@ -1,0 +1,32 @@
+{
+  "name": "sketch-exporter.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:back": "nodemon bin/www",
+    "start:front": "webpack --mode=development --watch",
+    "start": "concurrently \"npm run start:front\" \"npm run start:back\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^5.0.0",
+    "css-loader": "^3.2.0",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "tailwindcss": "^1.1.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

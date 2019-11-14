@@ -1,0 +1,5 @@
+node_modules
+public/style.css
+public/bundle.js
+
+.DS_Store
